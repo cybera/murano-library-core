@@ -12,7 +12,8 @@ else
   echo $muranoAgent | base64 -d > /etc/init.d/murano-agent
   chmod +x /etc/init.d/murano-agent
   #pip install murano-agent
-  pip install git+https://github.com/openstack/murano-agent@stable/mitaka
+  #pip install git+https://github.com/openstack/murano-agent@stable/mitaka
+  pip install git+https://github.com/openstack/murano-agent@mitaka-eol
 fi
 
 
